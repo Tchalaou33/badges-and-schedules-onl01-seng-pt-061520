@@ -1,13 +1,11 @@
-# def badge_maker(name= Arel)
-#   return"Hello, my name is #{name}."
+ def badge_maker(name= Arel)
+   return"Hello, my name is #{name}."
   
-# end
+ end
 
 
-# def batch_badge_creator(attendees)
-#   batch_badge_creator.each do |attendees|
-#     puts "Hello, my name is #{attendees}"
-# end
+ def batch_badge_creator(attendees)
+   batch_badge_creator.each do |attendees|
+     puts "Hello, my name is #{attendees}"
+ end
 
-def badge_maker(name)
-  badge_maker("Arel")
